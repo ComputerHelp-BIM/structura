@@ -505,7 +505,7 @@
   /* PDF report                                                          */
   /* ================================================================== */
 
-  var JSPDF_URL = 'vendor/jspdf-2.5.1.umd.min.js';
+  var JSPDF_URL = 'jspdf-2.5.1.umd.min.js';
 
   function loadScript(url) {
     return new Promise(function (resolve, reject) {
@@ -852,7 +852,7 @@
   /* XLSX reading (lazy)                                                 */
   /* ================================================================== */
 
-  var XLSX_URL = 'vendor/xlsx-0.18.5.full.min.js';
+  var XLSX_URL = 'xlsx-0.18.5.full.min.js';
 
   /**
    * Read an ETABS workbook export into the same table shape the .s2k and

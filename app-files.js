@@ -55,7 +55,7 @@
     if (workerBroken) return null;
     if (worker) return worker;
     try {
-      worker = new Worker('js/parse-worker.js');
+      worker = new Worker('parse-worker.js');
       worker.onmessage = function (e) {
         var d = e.data || {};
         var job = jobs[d.id];
