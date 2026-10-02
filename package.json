@@ -1,0 +1,13 @@
+{
+  "name": "structura-etabs-viewer",
+  "version": "1.8.1",
+  "private": true,
+  "description": "Structura — browser-based ETABS model viewer by Computer Help / Building Software. Static site; no build step.",
+  "license": "UNLICENSED",
+  "scripts": {
+    "dev": "npx --yes serve@14 . -l 3000",
+    "check": "node scripts/check.js",
+    "deploy": "npx --yes vercel@latest --prod"
+  },
+  "engines": { "node": ">=18" }
+}
